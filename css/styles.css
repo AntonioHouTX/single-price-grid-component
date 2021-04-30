@@ -23,8 +23,7 @@
     font-family: "Karla", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    display: flex;
-    flex-direction: column;
+
   }
 
   h1 {
@@ -40,6 +39,13 @@
     color: white;
   }
 
+  .grid {
+    display: grid;
+    grid-template-rows: 100px 300px;
+    grid-template-columns: auto auto;
+    grid-gap: 0 0;
+  }
+
   .day {
     color: yellow; /*fallback color*/
     color: hsl(71, 73%, 54%);
@@ -50,6 +56,7 @@
     color: yellow; /*fallback color*/
     color: hsl(71, 73%, 54%);
     margin: auto;
+    grid-column: 1 / span 2;
   }
 
   .gain {
@@ -61,14 +68,13 @@
     background-color: cyan;
     background-color: hsl(179, 62%, 43%);
     margin: auto;
-    display: flex;
-    flex-direction: row;
+    grid-column: 1 / span 1;
   }
 
   .why-us {
     background-color: #4abebd;
     margin: auto;
-
+    grid-column: 2 / span 1;
 
   }
 
