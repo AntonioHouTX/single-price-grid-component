@@ -1,0 +1,84 @@
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: #e5eff5; /*fallback color*/
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1440px) {
+  body {
+    background-color: #e5eff5; /*fallback color*/
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    color: #2ab2af; /*fallback color*/
+    color: hsl(179, 62%, 43%);
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  .day {
+    color: yellow; /*fallback color*/
+    color: hsl(71, 73%, 54%);
+  }
+
+  .join {
+    background-color: white;
+    color: yellow; /*fallback color*/
+    color: hsl(71, 73%, 54%);
+    margin: auto;
+  }
+
+  .gain {
+    color: #e5eff5; /*fallback color*/
+    color: hsl(204, 43%, 93%);
+  }
+
+  .monthly-subscription {
+    background-color: cyan;
+    background-color: hsl(179, 62%, 43%);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .why-us {
+    background-color: #4abebd;
+    margin: auto;
+
+
+  }
+
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+  }
+
+.attribution a {
+  color: #3e52a3; /*fallback color*/
+  color: hsl(228, 45%, 44%);
+  }
