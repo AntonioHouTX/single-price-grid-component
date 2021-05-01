@@ -211,6 +211,12 @@ body {
     font-size: 1rem;
     box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.685);
     margin-top: 2rem;
+    transition-duration: 0.4s;
+  }
+
+  .monthly-subscription > button:hover {
+    background-color: white;
+    color: black;
   }
 
   .why-us {
