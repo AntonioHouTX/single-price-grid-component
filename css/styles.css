@@ -27,7 +27,7 @@ body {
   }
 
   .grid {
-    margin: 9rem;
+    margin: 20rem;
     display: grid;
     border-radius: 1rem 1rem 1rem 1rem;
     grid-template-columns: 1fr 1fr;
