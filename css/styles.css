@@ -8,10 +8,119 @@ body {
   background-color: #e5eff5; /*fallback color*/
   background-color: hsl(204, 43%, 93%); /*Light gray*/
   font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   text-align: left;
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    background-color: #e5eff5; /*fallback color*/
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+  }
+
+  h1 {
+    color: #2ab2af; /*fallback color*/
+    color: hsl(179, 62%, 43%);
+  }
+
+  .grid {
+    margin: 4rem 20rem 4rem 20rem;
+    display: grid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .join {
+    background-color: white;
+    color: yellow; /*fallback color*/
+    color: hsl(71, 73%, 54%);
+    display: grid;
+    padding: 2.5rem;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+
+  .join > h1 {
+    padding-bottom: 1.5rem;
+    letter-spacing: -1px;
+    font-weight: 700;
+  }
+
+  .join > h2 {
+    padding-bottom: 1rem;
+    color: yellow; /*fallback color*/
+    color: hsl(71, 73%, 54%);
+  }
+
+  .join > p {
+    color: hsl(203, 25%, 44%);
+  }
+
+  .monthly-subscription {
+    background-color: cyan;
+    background-color: hsl(179, 62%, 43%);
+    padding: 2.5rem;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+  .monthly-subscription > h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: hsl(204, 43%, 93%);
+  }
+
+  .monthly-subscription > div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .dollar {
+    font-size: 2.5rem;
+    color: hsl(204, 43%, 93%);
+  }
+
+  .subscription-span {
+    font-size: 1rem;
+    color: rgba(250, 250, 250, 0.61);
+  }
+
+  .monthly-subscription > p {
+    color: hsl(204, 43%, 93%);
+  }
+
+  .monthly-subscription > button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    height: 3rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.685);
+    margin-top: 2rem;
+  }
+
+  .why-us {
+    background-color: #4abebd;
+    padding: 2.5rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+  }
+
+  .why-us > h2 {
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 1rem;
+  }
+
+  .why-us p {
+    color: hsl(204, 43%, 93%);
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -27,7 +136,7 @@ body {
   }
 
   .grid {
-    margin: 20rem;
+    margin: 4rem 20rem 4rem 20rem;
     display: grid;
     border-radius: 1rem 1rem 1rem 1rem;
     grid-template-columns: 1fr 1fr;
@@ -47,8 +156,7 @@ body {
   .join > h1 {
     padding-bottom: 1.5rem;
     letter-spacing: -1px;
-    font-size: 1.8rem;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   .join > h2 {
