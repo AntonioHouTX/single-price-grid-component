@@ -27,6 +27,8 @@ Users should be able to:
 ### Screenshot
 
 ![Completed Project](images/completedproject.jpg)
+=======
+
 
 ### Links
 
