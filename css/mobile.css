@@ -42,7 +42,6 @@ h1 {
 
 .join > h2 {
   padding-bottom: 1rem;
-  color: yellow; /*fallback color*/
   color: hsl(71, 73%, 54%);
 }
 
@@ -120,6 +119,5 @@ h1 {
 }
 
 .attribution a {
-  color: #3e52a3; /*fallback color*/
   color: hsl(228, 45%, 44%);
 }
